@@ -97,27 +97,35 @@
 
 let menu = () => {
     let template = /*html*/`
-        <a class="navbar-brand" href="index.html"><img src="images/logo--dev.png" alt="logo" width="100"></a> <span class="h3 text-primary font-secondary">CODE</span>
-        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navigation">
-          <ul class="navbar-nav ml-auto text-center">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item @@about">
-              <a class="nav-link" href="full-stack-i.html">Programador</a>
-            </li>
-            <li class="nav-item @@courses">
-              <a class="nav-link" href="full-stack-ii.html">Programador web</a>
-            </li>
+		<div class="container">
+			<nav class="navbar  fixed-top">
+				<a class="navbar-brand" href="index.html"><img src="images/logo--dev.png" alt="logo" width="100"></a> <span class="h3 text-primary font-secondary">CODE</span>
+				<button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navigation">
+					<ul class="navbar-nav ml-auto text-center">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item @@about">
+							<a class="nav-link" href="full-stack-i.html">Programador</a>
+						</li>
+						<li class="nav-item @@courses">
+							<a class="nav-link" href="full-stack-ii.html">Programador web</a>
+						</li>
 
-            <li class="nav-item @@blog">
-              <a class="nav-link" href="diseno-web-de-interfaces.html">Diseño web</a>
-            </li>
-          </ul>
-        </div>
+						<li class="nav-item @@blog">
+							<a class="nav-link" href="diseno-web-de-interfaces.html">Diseño web</a>
+						</li>
+
+						<li class="nav-item @@blog">
+							<a class="nav-link" href="seguimiento.html">Seguimiento</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
       `
       document.querySelector(".container nav"). innerHTML = template
 	  console.log('updating menu')

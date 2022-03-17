@@ -1,0 +1,36 @@
+#marcaCompletado{
+    width: 50%;
+    min-width: 20px;
+    max-width: 30px;
+    height: auto;
+}
+
+#tarea{
+    margin-top: 30px;
+}
+
+.padding-0-estado{
+    padding-right:0;
+}
+
+.padding-0-tarea{    
+    padding-left:0;
+}
+
+#colImgEstadoTarea{
+    width: auto;
+}
+
+.scrollspy-seguimiento{
+    position:relative;
+    height:650px;
+    overflow:auto
+}
+
+#contenedor-lecciones{
+    padding-top: 15px;
+}
+
+.titulo-Modulo{
+    padding-top: 35px;
+}
